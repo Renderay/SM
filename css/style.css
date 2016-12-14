@@ -5,33 +5,75 @@ html {
 
 body {
 font-family: 'PT Sans', sans-serif;
+background-color: #797979;
+width: 600px;
+height: 100%;
+padding: 10px;
+padding-top:0;
+padding-bottom: 0;
+margin: auto;
 }
+
 
 .wrap {
+  height:100%;
+background-image: url(images/background.png);
+}
+
+
+/*Картинки     */
+.delo {
 
 }
+
+
+.secret {
+
+}
+
+.csssr {
+
+}
+
+
+
+
+
+
+
+/*Инфо о себе     */
 
 .personal {
 
 }
 
+
+
+/* Чекбоксы    */
 .checkbox {
 
 }
 
 
+
+/*  Джава   */
 .JS {
 
 }
 
+
+/*   О себе текст  */
 .about-yourself {
 
 }
 
+/*  Планы на будущее   */
 .plans {
-
 }
 
+
+
+/*  Дата заполнения   */
 .date {
-  
+
 }
