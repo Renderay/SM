@@ -20,6 +20,7 @@ b {
 
 h1 {
   font-size: 30px;
+
 }
 
 p {
@@ -118,6 +119,7 @@ width:100%;
 
 .p1 {
     margin-left:100px;
+    font-size: 20px;
 }
 
 .check1 {
@@ -147,9 +149,8 @@ width:100%;
 width:100%;
 
 }
-
 .java-level {
-
+  width:700pxL
 }
 
 .level-line {
@@ -158,28 +159,67 @@ width:100%;
 }
 
 
-
 #slider {
 width: 770px;
 }
 
+.java-block {
+display: inline-block;
+width:770px;
+height:30px;
+margin-left: 100px;
+
+}
+
+
+.java-block b {
+  margin-left: 0px;
+  font-size: 15px;
+}
+
+
+
+.java-1 {
+  width:150px;
+  float:left;
+}
+.java-2 {
+    width:225px;
+    float:left;
+}
+
+.java-3 {
+    width:210px;
+    float:left;
+}
+.java-4 {
+width:170px;
+float:right;
+}
+
+
+
+
+
+
 
 
 /*   О себе текст  */
-.about-yourself {
 
-}
 
 .about-yourself p {
 margin-left: 100px;
 font-size: 15px;
+font-size: 20px;
 }
+
 
 
 .pole {
   width:770px;
   height:200px;
 }
+
 textarea {
   margin-left:100px;
   width:770px;
@@ -196,14 +236,26 @@ textarea {
 
 
 
-
 /*  Планы на будущее   */
-.plans {
+.plans  p {
+width: 700px;
+margin-left:100px;
 }
 
 
 
 /*  Дата заполнения   */
 .date {
+  text-align: left;
+    width:450px;
+    height:35px;
+  display:block;
+  background-image: url(images/underline-short.png);
+  background-repeat: no-repeat;
+  background-position:right  bottom;
+}
+
+.date .date-1 p {
+  font-size:25px;
 
 }
