@@ -1,56 +1,95 @@
-html {
-  width: 100%;
-  height: 100%;
+body {
+ font-family: 'PT Sans', sans-serif;
+ background-color: #797979;
+ margin-top:0;
+ margin-bottom: 0;
+ height:100%;
+ width: 100%
 }
 
-body {
-font-family: 'PT Sans', sans-serif;
-background-color: #797979;
-width: 1000px;
-height: 100%;
-padding: 10px;
-padding-top:0;
-padding-bottom: 0;
-margin: auto;
+div {
+  border: 1px solid black;
 }
+
+b {
+  font-size: 15px;
+  border: 1px solid black;
+  margin-left: 100px;
+  }
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  align: center;
+    font-size: 20px;
+  }
 
 
 .wrap {
   height:100%;
-background-image: url(images/background.png);
+  padding: 10px;
+  padding-top:0;
+  padding-bottom: 0;
+  margin: auto;
+  width:1000px;
+  background-image: url(images/background.png);
 }
-
 
 /*Картинки     */
-.delo {
 
+.img{
+ height:480px;
+  width:100%
+  display: block;
+  border: 1px solid black;
 }
 
+.delo {
+ position: absolute;
+ left: 580px;
+ top:290px;
+}
 
 .secret {
+ position: absolute;
 
+ left: 900px;
+ top:50px;
 }
 
 .csssr {
-
+  position: absolute;
+  left:20%;
+  top:50px;
 }
-
-
-
-
-
 
 
 /*Инфо о себе     */
 
 .personal {
+ border: 1px solid black;
+ display: block;
+}
+
+.per {
+  font-size: 14px;
+  height: 50px;
+  background-image: url(images/underline-long.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 
 }
 
 
 
+
+
+
 /* Чекбоксы    */
-.checkbox {
+#checkbox {
+
 
 }
 
