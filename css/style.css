@@ -121,46 +121,81 @@ width:100%;
 }
 
 .check1 {
-float:left;
-width: 250px;
-min-height:100%;
-margin-right: 40px;
+ float:left;
+ width: 250px;
+ min-height:100%;
+ margin-right: 40px;
 }
 
 
 .check2 {
-width: 250px;
-min-height:100%;
-float:left;
-margin-right: 40px;
+ width: 250px;
+ min-height:100%;
+ float:left;
+ margin-right: 40px;
 }
 
 .check3 {
   width: 250px;
   min-height:100%;
   float: left;
-
-
   }
-
-
-
-
-
-
-
 
 
 /*  Джава   */
 .JS {
+width:100%;
 
 }
+
+.java-level {
+
+}
+
+.level-line {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+
+
+#slider {
+width: 770px;
+}
+
 
 
 /*   О себе текст  */
 .about-yourself {
 
 }
+
+.about-yourself p {
+margin-left: 100px;
+font-size: 15px;
+}
+
+
+.pole {
+  width:770px;
+  height:200px;
+}
+textarea {
+  margin-left:100px;
+  width:770px;
+  height:200px;
+  border:none;
+  font-size: 50px;
+  background:transparent;
+  background-image: url(images/underline-pole.png);
+  background-repeat: repeat-y;
+  resize:none;
+}
+
+
+
+
+
 
 /*  Планы на будущее   */
 .plans {
