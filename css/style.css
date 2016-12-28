@@ -7,15 +7,8 @@ body {
  width: 100%
 }
 
-div {
-
-}
-
-
-
 b {
   font-size: 20px;
-  margin-left: 100px;
   }
 
 h1 {
@@ -49,45 +42,47 @@ a:visited {
 .wrap {
   height:100%;
   padding: 10px;
-  padding-top:0;
-  padding-bottom: 0;
   margin: auto;
   width:1000px;
   background-image: url(images/background.png);
 }
 
-Исправить на 900
+
 .wrap-center {
-  width:
+width:900px;
+margin-left: 50px;
 }
 
 /*Картинки     */
 
-.img{
- height:340px;
+.img {
+height:390px;
 width:100%;
 }
 
+.img-1 {
+margin-left: -20px;
+margin-top: 40px;
+}
 
+.img-2 {
+margin-left: 600px;
+margin-top: -40px;
+
+}
+
+.img-3 {
+margin-top: 100px;
+}
 .csssr {
- width:150px;
- position:relative;
- left:100px;
- top:50px;
  }
 
 .secret {
- position:relative;
- width:260px;
- left:690px;
- top:-20px;
+  margin-right: 200px;
  }
 
-
 .delo {
- width:250px;
- position:relative;
- left:400px;
+ margin-left: 350px;
  }
 
 
@@ -118,12 +113,12 @@ width:100%;
   font-weight: bold;
   display:inline-block;
   width:100%;
- margin-left: 100px;
+
 }
 
 
 .p1 {
-    margin-left:100px;
+
     font-size: 20px;
 }
 
@@ -155,7 +150,7 @@ width:100%;
 
 }
 .java-level {
-  width:700pxL
+  width:700px;
 }
 
 .level-line {
@@ -172,8 +167,6 @@ width: 770px;
 display: inline-block;
 width:770px;
 height:30px;
-margin-left: 100px;
-
 }
 
 
@@ -213,7 +206,7 @@ float:right;
 
 
 .about-yourself p {
-margin-left: 100px;
+
 font-size: 15px;
 font-size: 20px;
 }
@@ -226,7 +219,7 @@ font-size: 20px;
 }
 
 textarea {
-  margin-left:100px;
+
   width:770px;
   height:200px;
   border:none;
@@ -244,7 +237,7 @@ textarea {
 /*  Планы на будущее   */
 .plans  p {
 width: 700px;
-margin-left:100px;
+
 }
 
 
