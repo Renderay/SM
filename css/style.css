@@ -35,7 +35,7 @@ font-size: 38px;
 
 .p1 {
   font-family: 'PT Sans', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 
@@ -133,10 +133,14 @@ margin-top: 100px;
 
 
 /* Чекбоксы    */
-#checkbox {
+.checkbox {
  height:350px;
  display: inline-block;
  width:100%
+}
+
+.checkbox .p1 {
+  font-size: 15px;
 }
 
 .checkbox-column {
@@ -264,8 +268,8 @@ float:right;
 
 
 .about-yourself p {
-font-size: 15px;
-font-size: 20px;
+font-size: 16px;
+
 }
 
 
@@ -323,7 +327,7 @@ background: url(images/radioactive.png) left top no-repeat;
   text-align: left;
     width:450px;
     height:35px;
-
+margin-bottom: 150px;
   background-image: url(images/underline-short.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -332,6 +336,7 @@ background: url(images/radioactive.png) left top no-repeat;
 .date .date-1 p {
   font-size:25px;
 }
+
 
 
 @font-face {
