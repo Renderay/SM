@@ -1,8 +1,12 @@
-body {
- background-color: #797979;
 
+
+
+body {
+
+ background-color: #797979;
  height:100%;
  width: 100%
+
 }
 
 
@@ -19,13 +23,13 @@ h1 {
 
 p {
   font-family: 'PT Sans', sans-serif;
-  font-size: 24px;
+  font-size: 23px;
   }
 
-  span {
+span {
     color:#3d281f;
 font-family: Courier;
-font-size: 30px;
+font-size: 38px;
   }
 
 
@@ -254,8 +258,32 @@ textarea {
 
 /*  Планы на будущее   */
 .plans  p b {
-margin-right: 30px;
+margin-right: 10px;
 }
+
+input[type="radio"] {
+display:none;
+}
+input[type="radio"] + label span {
+display:inline-block;
+width:29px;
+height:29px;
+margin:1px 4px 0 0;
+vertical-align:middle;
+background:url(images/radio.png) left top no-repeat;
+cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+  display:inline-block;
+  width:28px;
+  height:28px;
+  vertical-align:middle;
+background: url(images/radioactive.png) left top no-repeat;
+
+}
+
+
 
 
 /*  Дата заполнения   */
@@ -263,10 +291,10 @@ margin-right: 30px;
   text-align: left;
     width:450px;
     height:35px;
-  display:block;
+
   background-image: url(images/underline-short.png);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: right bottom;
 }
 
 .date .date-1 p {
