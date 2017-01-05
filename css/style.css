@@ -97,27 +97,43 @@ margin-left: 300px;
 
 
 .per1  {
+  height:50px;
+  line-height: 50px;
   background-image: url(images/per3.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+
+}
+
+.per1 span {
+  vertical-align: text-bottom;
+
 }
 
 .per2 {
+  height:50px;
+  line-height: 50px;
   background-image: url(images/per3.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 .per3 {
+  height:50px;
+  line-height: 50px;
     background-image: url(images/per1.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 .per4 {
+  height:50px;
+  line-height: 50px;
   background-image: url(images/underline-long.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 .per5 {
+  height:50px;
+  line-height: 50px;
   background-image: url(images/underline.png);
   background-repeat: no-repeat;
   background-position: right bottom;
