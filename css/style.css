@@ -71,7 +71,6 @@ width:100%;
 }
 
 .img-1 {
-
 margin-top: 60px;
 }
 
@@ -100,30 +99,30 @@ margin-top: 100px;
 
 
 .per1  {
-  background-image: url(images/underline-long.png);
+  background-image: url(images/per3.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 .per2 {
-  background-image: url(images/underline-long.png);
+  background-image: url(images/per3.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 .per3 {
-    background-image: url(images/per3.png);
+    background-image: url(images/per1.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 .per4 {
   background-image: url(images/underline-long.png);
   background-repeat: no-repeat;
-  background-position:  bottom;
+  background-position: right bottom;
 }
 .per5 {
   background-image: url(images/underline.png);
   background-repeat: no-repeat;
-  background-position:  bottom;
+  background-position: right bottom;
 }
 
 
@@ -195,7 +194,7 @@ height:30px;
 
 .java-block b {
   margin-left: 0px;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 
@@ -210,7 +209,7 @@ height:30px;
 }
 
 .java-3 {
-    width:210px;
+    width:200px;
     float:left;
 }
 .java-4 {
@@ -253,14 +252,10 @@ textarea {
 }
 
 
-
-
-
 /*  Планы на будущее   */
 .plans  p b {
 margin-right: 30px;
 }
-
 
 
 /*  Дата заполнения   */
@@ -276,12 +271,7 @@ margin-right: 30px;
 
 .date .date-1 p {
   font-size:25px;
-
 }
-
-
-
-
 
 
 @font-face {
