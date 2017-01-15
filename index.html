@@ -1,23 +1,23 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Secret materials</title>
-	<link rel="stylesheet" href="css\style.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
- </head>
+<meta charset="utf-8">
+<title>Secret materials</title>
+<link rel="stylesheet" href="css\style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
 
- <body>
-  <div class="wrap">
+<body>
+<div class="wrap">
 <div class="wrap__wrap-center">
 
 
 <div class="img">
-	<div class="img__img12">
-<div class= "img__img-1">
+      	<div class="img__img12">
+           <div class= "img__img-1">
 	 <img src='css/images/csssr.png' alt="csssr">
- </div>
-	 <div class="img__img-2">
+           </div>
+	     <div class="img__img-2">
 	  <img src='css/images/secret.png' alt="secret">
 		</div>
 			</div>
@@ -29,11 +29,11 @@
 
 <!--Персонал инфа-->
 <div class="personal">
-	<div class="personal__per1"><p><b>Полное ФИО</b> &nbsp &nbsp &nbsp <span class="personal_1">  Полупан Андрей Владимирович</span></p></div>
-		<div class="personal__per2"><p><b> Год рождения</b>&nbsp  &nbsp &nbsp <span class="personal_1">1993</span></p></div>
-			<div class="personal__per3"><p><b>Место жительства</b>&nbsp &nbsp &nbsp <span class="personal_1"> г.Москва, Россия</span></p></div>
-				<div class="personal__per4"><p><b>Скайп</b>&nbsp &nbsp &nbsp &nbsp <span class="personal_1"> скайп</p></span></div>
-				<div class="personal__per5"><p><b>Почта</b>&nbsp &nbsp &nbsp &nbsp <span class="personal_1">polupan.andrew@gmail.com</span></p></div>
+	<div class="personal__per1"><p class="parag"><b class="personal__parag__nam">Полное ФИО</b> &nbsp &nbsp &nbsp <span class="personal_1">  Полупан Андрей Владимирович</span></p></div>
+		<div class="personal__per2"><p class="parag"><b  class="personal__parag__nam"> Год рождения</b>&nbsp  &nbsp &nbsp <span class="personal_1">1993</span></p></div>
+			<div class="personal__per3"><p class="parag"><b  class="personal__parag__nam">Место жительства</b>&nbsp &nbsp &nbsp <span class="personal_1"> г.Москва, Россия</span></p></div>
+				<div class="personal__per4"><p class="parag"><b  class="personal__parag__nam">Скайп</b>&nbsp &nbsp &nbsp &nbsp <span class="personal_1"> скайп</p></span></div>
+			  	<div class="personal__per5"><p class="parag"><b  class="personal__parag__nam">Почта</b>&nbsp &nbsp &nbsp &nbsp <span class="personal_1">polupan.andrew@gmail.com</span></p></div>
 </div>
 </br>
 </br>
@@ -41,7 +41,7 @@
 
 <!-- Чекбоксы-->
 <div class="checkbox">
-<h1><b>Расскажите о себе Чекбоксами</b></h1>
+<h1><b class="checkbox__x">Расскажите о себе Чекбоксами</b></h1>
 <p class="checkbox__p1"> Отметьте чекбоксами пункты, которые соответствуют вашим скиллам.
 Кстати, отсутствие опыта не означает,что у вас меньше шансов стать
  одним из наших товарищей. Это означает, что вы будете получать те задачи,
@@ -49,8 +49,8 @@
 
 <form method="post" >
 <div class="checkbox-column">
-<div class="checkbox-column__check1">
-	   <p><input type="checkbox" id="1" name="1"/>
+<div class="checkbox-column__check">
+	   <input class="ch" type="checkbox" id="1" name="1"/>
 		 	 <label for="1"><span></span>БЭМ/OOCSS</label>
 	 	</br>
 	      <input type="checkbox" id="2" name="2"/>
@@ -70,10 +70,10 @@
 			</br>
 		   	 <input type="checkbox" id="7" name="7"/>
 		  	 <label for="7"><span></span>ES2015/ES2016</label>
-			 </p>
+
 	</div>
-<div class="checkbox-column__check2">
-			 	<p><input type="checkbox" id="8" name="8"/>
+<div class="checkbox-column__check">
+			 	<input type="checkbox" id="8" name="8"/>
 				 <label for="8"><span></span>Gulp/GRUNT</label>
 			</br>
 			 	 <input type="checkbox" id="9" name="9"/>
@@ -92,10 +92,10 @@
 					<label for="13"><span></span>Знаю/изучаю React</label>
 			 </br>
 					<input type="checkbox" id="14" name="14"/>
-					<label for="14"><span></span>Знаю/изучаю Node.js</p>
+					<label for="14"><span></span>Знаю/изучаю Node.js
  </div>
-<div class="checkbox-column__check3">
-				<p>  <input type="checkbox" id="15" name="15"/>
+<div class="checkbox-column__check checkbox-column__check_right">
+				  <input type="checkbox" id="15" name="15"/>
 					 <label for="15"><span></span>Использую Git</label>
 				 </br>
 						 <input type="checkbox" id="16" name="16" />
@@ -108,11 +108,10 @@
 							<label for="18"><span></span>Я ленивый(-ая)</label>
 					</br>
 							<input type="checkbox" id="19" name="19"/>
-							<label for="19"><span></span>У меня хороший английский</p>
- </div>
- </div>
-	  </form>
-
+							<label for="19"><span></span>У меня хороший английский
+</div>
+</div>
+</form>
 </div>
 
 
@@ -120,7 +119,7 @@
 
 <div class="JS">
 <div class="JS__java-level">
-<h1><b>Уровень владения JavaScript </b> </h1>
+<h1><b class="JS__java-level__level">Уровень владения JavaScript </b> </h1>
 </div>
 <div class="level-line">
 
@@ -130,32 +129,29 @@
  </div>
 
  <div class="java-block">
-<div class="java-block__java-1"><b>Не владею</b></div>
-<div class="java-block__java-2"><b>Использую готовые решения</b></div>
-<div class="java-block__java-3"><b>Использую готовые решения и умею их переделывать</b> </div>
-<div class="java-block__java-4"><b>Пишу сложный JS с нуля</b></div>
+<div class="java-block__java-1"><b class="java-block__java-1__bj">Не владею</b></div>
+<div class="java-block__java-2"><b class="java-block__java-2__bj">Использую готовые решения</b></div>
+<div class="java-block__java-3"><b class="java-block__java-3__bj">Использую готовые решения и умею их переделывать</b> </div>
+<div class="java-block__java-4"><b class="java-block__java-4__bj">Пишу сложный JS с нуля</b></div>
 </div>
 </div>
-
-
 
 
 
 <div class="about-yourself">
-<h1><b>Расскажите о себе словами </b>  </h1>
+<h1 class="about-yourself__abo"><b class="about-yourself__abo__ab">Расскажите о себе словами </b>  </h1>
 <p class="about-yourself__p1">Напишите пару предожений, Чем вас привлекла наша вакансия и чего вы
 	ожидаете от работы в CSSSR. Кстати, будет здорово, если при
 	нехватке места для текста строки будут добавляться автоматически.</p>
 <div class="about-yourself__pole">
-<textarea></textarea>
+<textarea class="about-yourself__pole__text-area"></textarea>
 </div>
 </div>
-
 
 
 
 <div class="plans">
-<h1><b>Какие у вас планы на будущее?</b></h1>
+<h1 class="plans__plan"><b class="plans__plan__pl">Какие у вас планы на будущее?</b></h1>
 <p class="plans__p1">Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.</p>
 <p>
 
@@ -174,7 +170,7 @@
 
 
 <div class="date">
-	<div class="date__date-1"><p><b>Дата заполнения</b> &nbsp &nbsp <span>01.01.2016</span></p></div>
+<div class="date__date-1"><p><b class="date__da">Дата заполнения</b> &nbsp &nbsp <span>01.01.2016</span></p></div>
 </div>
 
 </div>
